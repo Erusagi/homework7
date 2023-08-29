@@ -7,12 +7,5 @@ setup(name="clean_folder",
       description="sorting and clearing folder in chosen directory",
       entry_point={
           "console_scripts": ["clean_folder = clean_folder.clean:main"]
-      },
-      install_requires=[
-          "shutil",
-          "zipfile",
-          "tarfile",
-          "gzip"
-          "re"
-      ]
+      }
 )
